@@ -1,5 +1,5 @@
 <template>
-<Navbar />
+  <Navbar />
 </template>
 
 <style lang="scss">
@@ -18,13 +18,12 @@ html {
 *::after {
   box-sizing: border-box;
 }
-
 </style>
 <script>
-import Navbar from "./components/Navbar.vue"
+import Navbar from "./components/Navbar.vue";
 export default {
-components: {
-Navbar,
-}  
-}
+  components: {
+    Navbar,
+  },
+};
 </script>
